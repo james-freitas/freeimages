@@ -153,10 +153,12 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        FreeImages\Providers\AppServiceProvider::class,
+        FreeImages\Providers\AuthServiceProvider::class,
+        FreeImages\Providers\EventServiceProvider::class,
+        FreeImages\Providers\RouteServiceProvider::class,
+
+        Bestmomo\Scafold\ScafoldServiceProvider::class,
 
     ],
 

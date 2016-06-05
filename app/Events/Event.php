@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace FreeImages\Events;
 
 abstract class Event
 {
